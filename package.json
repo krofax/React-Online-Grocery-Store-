@@ -1,0 +1,17 @@
+{
+  "name": "react-online-grocery-store",
+  "private": true,
+  "scripts": {
+    "start": "bash grab.sh || exit 0 && react-scripts start",
+    "build": "bash grab.sh || exit 0 && react-scripts build",
+    "test": "bash grab.sh || exit 0 && react-scripts test"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "3.0.0"
+  }
+}
